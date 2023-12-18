@@ -367,6 +367,12 @@ TARGET_COMMON_QTI_COMPONENTS += \
 PRODUCT_PRODUCT_PROPERTIES += \
     rild.libpath=/vendor/lib64/libril-qc-hal-qmi.so
 
+# Force Enable IMS(Required untill carrierconfig is fixed)
+PRODUCT_VENDOR_PROPERTIES += \
+    persist.dbg.volte_avail_ovr=1 \
+    persist.dbg.vt_avail_ovr=1 \
+    persist.dbg.wfc_avail_ovr=1
+
 PRODUCT_VENDOR_PROPERTIES += \
     persist.vendor.data.iwlan.enable=true \
     persist.vendor.radio.add_power_save=0 \
