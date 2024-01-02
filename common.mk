@@ -314,7 +314,8 @@ PRODUCT_PACKAGES += \
     BengalFrameworksOverlay \
     BengalSettingsOverlay \
     BengalSystemUIOverlay \
-    BengalWifiOverlay
+    BengalWifiOverlay \
+    WifiMainline
 
 # Public libraries
 PRODUCT_COPY_FILES += \
