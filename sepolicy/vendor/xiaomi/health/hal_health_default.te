@@ -1,0 +1,2 @@
+# Lineage Health HAL
+allow hal_health_default sysfs_wakeup:file read;
