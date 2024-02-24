@@ -451,14 +451,11 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/wifi/WCNSS_qcom_cfg.ini:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/WCNSS_qcom_cfg.ini
 
 # WLAN
-PRODUCT_VENDOR_PROPERTIES += \
-    ro.hardware.wlan.chip=wcn3988 \
-    ro.hardware.wlan.dbs=0 \
-    ro.hardware.wlan.mimo=0 \
+PRODUCT_PRODUCT_PROPERTIES += \
     ro.hardware.wlan.vendor=qcom
 
 PRODUCT_VENDOR_PROPERTIES += \
-    ro.telephony.iwlan_operation_mode=legacy
+    ro.hardware.wlan.dbs=0
 
 # Zygote
 PRODUCT_SYSTEM_PROPERTIES += \
