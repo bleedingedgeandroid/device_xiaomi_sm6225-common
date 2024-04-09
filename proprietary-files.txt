@@ -701,3 +701,6 @@ vendor/lib/libwfduibcsrcinterface_proprietary.so|826a3a7c9f81e63abe1cf805e6abca2
 vendor/lib/libwfdutils_proprietary.so|f60f70ba7efdcb773bed04815da7c88f2e63d6b9
 vendor/lib/vendor.qti.hardware.wifidisplaysession@1.0.so|1c38bab7199c0ebd418749b16dc8e10610eaf17c
 vendor/lib/vendor.qti.hardware.wifidisplaysessionl@1.0-halimpl.so|dd1f77c8824c288fae5410e3e2ae0b55e206053b
+
+# WiFi Display - From SPESN HyperOS OS1.0.3.0.TGKMIXM
+vendor/lib/libwfdaac_vendor.so|d7ba983f5c3ec2079d9bc24964ff5b36112d3e96
