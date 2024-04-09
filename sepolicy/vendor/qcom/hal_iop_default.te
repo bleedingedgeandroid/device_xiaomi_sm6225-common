@@ -1,0 +1,1 @@
+allow vendor_hal_iop_default servicemanager:binder call;
