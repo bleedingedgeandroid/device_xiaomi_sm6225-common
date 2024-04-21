@@ -201,7 +201,7 @@ PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
 # Fastboot
 PRODUCT_PACKAGES += \
-    android.hardware.fastboot@1.1-impl-mock \
+    android.hardware.fastboot-service.example_recovery \
     fastbootd
 
 # Fingerprint
